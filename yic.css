@@ -1,0 +1,92 @@
+*{
+    padding:5 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+  overflow: auto;
+  background-image: url('/yic%20image-03.png') ;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color:rgb(14, 13, 14);
+  
+}
+
+
+.registration-form{
+  position: fixed;
+ top: 95%;
+ left: 50%;
+ transform: translate(-50%, -100%);
+ width: 350px;
+ height: 359px;
+ margin-top: auto;
+ background-color:rgb(242, 255, 99);
+ border-radius: 5px;
+}
+
+form{
+  width: 300px;
+  margin-left: 20px;
+  transform: translate(-1%, 1%);
+}
+
+.registration-form h1{
+  transform: translate(1%, 5%);
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin:0px 0;
+}
+
+.registration-form p {
+  display: flex;
+  font-size: 15px%;
+  margin-top:5px;
+}
+ 
+.registration-form input{
+  font-size: 14px;
+  padding: 2px;
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+.registration-form button{
+  transform: translate(0%, -30%);
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 8px 15px;
+  width:95%;
+  border: 0;
+  border-radius: 5px;
+  
+}
+.login{
+  font-size:12px;
+  top: 95%;
+  transform: translate(7%, -120%);
+  font-weight: bold;
+  width:80%;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(235, 235, 235);
+}
+
+.registration-form button:hover {
+  color: rgb(157, 160, 162);
+}
+
+.lost{
+  font-size: 12px;
+}
+.click:hover{
+  background-color:rgb(157, 160, 162);
+}
